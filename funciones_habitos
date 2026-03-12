@@ -1,4 +1,14 @@
 def registrar_habitos():
+     """
+    Solicita al usuario que ingrese actividades o hábitos y los guarda en una lista.
+    Permite seguir ingresando actividades hasta que el usuario decida terminar.
+
+    Returns
+    -------
+    lista_habitos : list
+    Lista que contiene las actividades ingresadas por el usuario.
+    """
+
     lista_act=[]
 
     seguir="si"
@@ -32,7 +42,8 @@ def analizar_habitos(lista_act):
     Returns
     ----------
      dicc : dict
-    Es un diccionario que cuenta cuantas veces aparece cada actividad
+    Es un diccionario que cuenta cuantas veces aparece cada actividad. Las claves son las actividades y los valores
+    son la cantidad de veces que aparece cada actividad.
 
 
     '''
