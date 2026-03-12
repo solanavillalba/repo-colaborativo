@@ -1,4 +1,4 @@
-import funciones_habitos()
+import funciones_habitos.py
 lista= funciones_habitos.registrar_habitos()
 resultado=funciones_habitos.analizar_habitos(lista)
 
