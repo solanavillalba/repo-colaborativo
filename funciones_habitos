@@ -17,7 +17,7 @@ def registrar_habitos():
     return lista_act
 
 
-def analizar_habitos(lista):
+def analizar_habitos(lista_act):
     '''
 
     Esta función contara que cantidad de veces aparece cada actividad de la lista
