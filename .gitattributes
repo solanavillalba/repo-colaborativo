@@ -1,2 +1,28 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+
+def registrar_habitos():
+ """
+Solicita al usuario que ingrese actividades o hábitos y los guarda en una lista.
+Permite seguir ingresando actividades hasta que el usuario decida terminar.
+
+ Returns
+-------
+lista_habitos : list
+Lista que contiene las actividades ingresadas por el usuario.
+ """
+
+
+
+def analizar_habitos(): 
+ """
+  Cuenta cuántas veces aparece cada actividad dentro de una lista.
+
+ Parameters
+----------
+lista : list
+ Returns
+  -------
+resultado : dict
+Diccionario donde las claves son las actividades y los valores
+son la cantidad de veces que aparece cada actividad.
+ """
