@@ -15,3 +15,32 @@ def registrar_habitos():
             break
     
     return lista_act
+
+
+def analizar_habitos(lista):
+    '''
+
+    Esta función contara que cantidad de veces aparece cada actividad de la lista
+
+
+    Parameters
+    ----------
+
+    lista_act: list
+    Es la lista de actividades que las personas realizan
+
+    Returns
+    ----------
+     dicc : dict
+    Es un diccionario que cuenta cuantas veces aparece cada actividad
+
+
+    '''
+    dicc = {}
+    for actividad in lista_act:
+        if actividad not in dicc.keys():
+            dicc[actividad] = 1
+        else:
+            dicc[actividad] +=1
+    
+    return dicc 
