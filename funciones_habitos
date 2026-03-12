@@ -1,0 +1,17 @@
+def registrar_habitos():
+    lista_act=[]
+
+    seguir="si"
+    actividad=input("Ingrese actividad: ")
+    lista_act.append(actividad)
+
+    while seguir == "si":
+        seguir = input("¿Queres agregar otra actividad? (si/no): ")
+        
+        if seguir == "si":
+            actividad=input("Ingrese actividad: ")
+            lista_act.append(actividad)
+        else:
+            break
+    
+    return lista_act
