@@ -15,7 +15,7 @@ def registrar_habitos():
             break
     
     return lista_act
-lista_act = ["hola", "hola", "chau", "chau", "hola", "si", "si", "no", "si"]
+
 
 def analizar_habitos(lista):
     '''
