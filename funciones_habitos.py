@@ -1,5 +1,5 @@
 def registrar_habitos():
-     """
+    """
     Solicita al usuario que ingrese actividades o hábitos y los guarda en una lista.
     Permite seguir ingresando actividades hasta que el usuario decida terminar.
 
